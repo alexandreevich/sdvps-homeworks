@@ -1,0 +1,12 @@
+---
+- name: Third Task Playbook
+  hosts: all
+  vars:
+    moto: "Hello,good dog!"
+  become: yes
+  tasks:
+    - name: Greeting system  
+      lineinfile:
+       dest: /etc/motd
+       line: "{{moto}}"  
+       state: present

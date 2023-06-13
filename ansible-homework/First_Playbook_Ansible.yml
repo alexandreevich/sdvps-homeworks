@@ -1,0 +1,16 @@
+---
+- name: First Task Playbook
+  hosts: all
+  become: yes
+  tasks:
+  - name: create directory
+    file:
+      path: /tmp/nginx
+      state: directory
+  - name: Unpacking Nginx Source
+    unarchive:
+      src: "http://nginx.org/download/nginx-1.25.0.tar.gz"
+      dest: /tmp/nginx
+      remote_src: yes
+      creates: /tmp/nginx-1.25.0.tar.gz
+     

@@ -1,0 +1,6 @@
+---
+- name: Playbook 5 with role  
+  hosts: all
+  become: yes
+  roles: 
+  - nginx

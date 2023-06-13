@@ -1,0 +1,17 @@
+---
+- name: Third Task Playbook
+  hosts: all
+  vars:
+    moto: "Hello,good dog!"
+  become: yes
+  tasks:
+    - name: Greeting system  
+      lineinfile:
+       path: /etc/motd
+       line:
+         content: 
+         - "{{moto}}"
+         - "{{ansible_facts.all_ipv4_addresses}}" 
+         - "{{ansible_facts.hostname}}" 
+       state: present
+       

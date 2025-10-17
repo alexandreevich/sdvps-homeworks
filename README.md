@@ -1,13 +1,6 @@
 # Домашние задания по курсу «Виртуализация, автоматизация и CI/CD»
 
-В этом репозитории собраны ваши домашние задания к каждой лекции. 
-
-Задачи без звёздочки обязательные. Их выполнение необходимо для получения зачёта и диплома о профессиональной переподготовке.
-
-Задачи со звёздочкой (*) являются дополнительными задачами или задачами повышенной сложности. Они необязательны для выполнения, но помогут вам лучше разобраться в теме.
-
-Любые вопросы по решению задач задавайте в чате учебной группы. Ссылку вы найдёте в письме на вашей электронной почте.
-
+Выполненные задачи
 
 ## Модуль: Виртуализация
 
@@ -21,7 +14,6 @@
 
 5. [Kubernetes. Часть 1](https://github.com/alexandreevich/sdvps-homeworks/blob/main/6-05.md).
 
-6. [Kubernetes. Часть 2](https://github.com/netology-code/sdvps-homeworks/blob/main/6-06.md).
 
 
 ## Модуль: Автоматизация администрирования инфраструктуры
@@ -37,11 +29,8 @@
 
 ## Модуль: Введение в DevOps
 
-1. [Git](https://github.com/netology-code/sdvps-homeworks/blob/main/8-01.md).
 
-2. [Что такое DevOps. CI/CD](https://github.com/netology-code/sdvps-homeworks/blob/main/8-02.md).
-
-3. [GitLab](https://github.com/netology-code/sdvps-homeworks/blob/main/8-03.md).
+1. [GitLab](https://github.com/netology-code/sdvps-homeworks/blob/main/8-03.md).
 
 
 
